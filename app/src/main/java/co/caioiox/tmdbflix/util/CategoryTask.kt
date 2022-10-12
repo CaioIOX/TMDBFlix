@@ -89,8 +89,8 @@ class CategoryTask(private val callback: Callback) {
             movies.add(
                 Movie(
                     id,
-                    "https://desafio-mobile.nyc3.digitaloceanspaces.com/movies-v2/$id",
                     title,
+                    posterUrl,
                     posterUrl,
                     voteAverage,
                     date,
